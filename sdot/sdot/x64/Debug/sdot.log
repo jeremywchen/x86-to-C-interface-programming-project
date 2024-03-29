@@ -1,0 +1,10 @@
+﻿  main.c
+C:\Users\USER\Desktop\lbyarch_mp2\sdot\main.c(21,12): warning C4477: 'printf' : format string '%lld' requires an argument of type '__int64', but variadic argument 1 has type 'int'
+  C:\Users\USER\Desktop\lbyarch_mp2\sdot\main.c(21,12):
+  consider using '%d' in the format string
+  C:\Users\USER\Desktop\lbyarch_mp2\sdot\main.c(21,12):
+  consider using '%I32d' in the format string
+  
+C:\Users\USER\Desktop\lbyarch_mp2\sdot\main.c(44,12): warning C4129: 'S': unrecognized character escape sequence
+C:\Users\USER\Desktop\lbyarch_mp2\sdot\main.c(20,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  sdot.vcxproj -> C:\Users\USER\Desktop\lbyarch_mp2\sdot\x64\Debug\sdot.exe

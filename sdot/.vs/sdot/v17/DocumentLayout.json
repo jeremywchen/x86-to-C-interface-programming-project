@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\lbyarch_mp2\\sdot\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD99F1E-5ADB-4522-A476-1F1A0C74F473}|sdot.vcxproj|C:\\Users\\USER\\Desktop\\lbyarch_mp2\\sdot\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4FD99F1E-5ADB-4522-A476-1F1A0C74F473}|sdot.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD99F1E-5ADB-4522-A476-1F1A0C74F473}|sdot.vcxproj|C:\\Users\\USER\\Desktop\\lbyarch_mp2\\sdot\\sdot.asm||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4FD99F1E-5ADB-4522-A476-1F1A0C74F473}|sdot.vcxproj|solutionrelative:sdot.asm||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\lbyarch_mp2\\sdot\\main.c",
+              "RelativeDocumentMoniker": "main.c",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\lbyarch_mp2\\sdot\\main.c",
+              "RelativeToolTip": "main.c",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAADUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-03-29T10:03:19.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "sdot.asm",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\lbyarch_mp2\\sdot\\sdot.asm",
+              "RelativeDocumentMoniker": "sdot.asm",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\lbyarch_mp2\\sdot\\sdot.asm",
+              "RelativeToolTip": "sdot.asm",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-29T10:01:42.561Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
