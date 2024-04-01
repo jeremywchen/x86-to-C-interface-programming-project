@@ -1,3 +1,8 @@
-﻿  main.c
-main.obj : error LNK2001: unresolved external symbol dot_product_asm
-C:\Users\USER\Desktop\lbyarch_mp2\sdot\x64\Release\sdot.exe : fatal error LNK1120: 1 unresolved externals
+﻿  Performing Custom Build Tools
+  main.c
+  Generating code
+  0 of 8 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  sdot.vcxproj -> C:\Users\USER\Desktop\lbyarch_mp2\sdot\x64\Release\sdot.exe

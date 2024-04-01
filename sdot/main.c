@@ -17,7 +17,7 @@ void dot_product_c(float* A, float* B, int n, float* Sdot_c) {
     *Sdot_c = (float)sdot;
 }
 
-double runCSolution(float* A, float* B, int n, double*Sdot_c){
+double runCSolution(float* A, float* B, int n, float* Sdot_c){
     clock_t start_c = clock();
     // NOTE: actual function call
     dot_product_c(A, B, n, Sdot_c);
@@ -27,7 +27,7 @@ double runCSolution(float* A, float* B, int n, double*Sdot_c){
 }
 
 
-double runASMSolution(float* A, float* B, int n, double*Sdot_asm){
+double runASMSolution(float* A, float* B, int n, float* Sdot_asm){
     clock_t start_asm = clock();
     // NOTE: actual function call
     dot_product_asm(A, B, n, Sdot_asm);
@@ -61,7 +61,7 @@ int main() {
 
     for(int i = 0; i < X; i++){
 
-        int n = pow(2, sizes[i]);
+        int n = (int) pow(2, sizes[i]);
         
         float* A = (float*)malloc(n * sizeof(float));
         float* B = (float*)malloc(n * sizeof(float));
