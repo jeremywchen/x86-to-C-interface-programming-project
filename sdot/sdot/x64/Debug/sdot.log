@@ -1,5 +1,7 @@
 ﻿  main.c
-C:\Users\USER\Desktop\lbyarch_mp2\sdot\main.c(28,18): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\USER\Desktop\lbyarch_mp2\sdot\main.c(29,18): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\USER\Desktop\lbyarch_mp2\sdot\main.c(20,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\USER\Desktop\lbyarch_mp2\sdot\main.c(23,28): warning C4133: 'function': incompatible types - from 'double *' to 'float *'
+C:\Users\USER\Desktop\lbyarch_mp2\sdot\main.c(33,30): warning C4133: 'function': incompatible types - from 'double *' to 'float *'
+C:\Users\USER\Desktop\lbyarch_mp2\sdot\main.c(88,51): warning C4133: 'function': incompatible types - from 'float *' to 'double *'
+C:\Users\USER\Desktop\lbyarch_mp2\sdot\main.c(89,55): warning C4133: 'function': incompatible types - from 'float *' to 'double *'
+C:\Users\USER\Desktop\lbyarch_mp2\sdot\main.c(64,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
   sdot.vcxproj -> C:\Users\USER\Desktop\lbyarch_mp2\sdot\x64\Debug\sdot.exe
