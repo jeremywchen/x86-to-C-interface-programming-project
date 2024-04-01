@@ -8,7 +8,10 @@ Chen, Jeremy Wertheim and Ortiz, Ma China
  Equation for sum of squares: (n(n + 1)(2n + 1)) / 6
 
  Vector size: 2^20
-
+ ![20vector](https://github.com/jeremywchen/x86-to-C-interface-programming-project/assets/92730916/949e19b7-0165-4cc1-8945-1170fc894aa3)
+ 
  Vector size: 2^24
+ ![24vector](https://github.com/jeremywchen/x86-to-C-interface-programming-project/assets/92730916/c02c3313-de79-4ddc-bbae-38c5e4d23160)
 
  Vector size: 2^29
+ ![28vector](https://github.com/jeremywchen/x86-to-C-interface-programming-project/assets/92730916/f27734d8-1872-47b2-8dde-8dd291b01619)
