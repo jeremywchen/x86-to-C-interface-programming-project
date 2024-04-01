@@ -1,7 +1,7 @@
 x86-to-C interface programming project
 Chen, Jeremy Wertheim and Ortiz, Ma China
 
- For the kernel, vector A and vector B are arrays of size n where all elements are 1.
+ For the kernel, vector A and vector B are arrays of size n where all elements are 1.<br />
  i.) 
  As seen from the results, the run time in assembly is faster than C and this is more apparent in larger sample sizes. When the vector size becomes larger, the time complexity between both languages become more apparent. When the vector size is 20, C runs at an average of 0.004733 seconds in our machine while ASM runs at an average of 0.001933 seconds. This result doesn't show a significant difference between the languages but when the vector size is 28, the difference is much more apparent as the runtime in C is 1.027933 seconds while ASM runtime was 0.366933 seconds. Likewise, the language's runtime as the vector size grows is much greater in C than ASM. One of the reasons for this is C still goes through a compiler and other processes to translate the C code into machine language. Assembly doesn't need a compiler but instead is directly mapped from between assembly language and machine language by the assembler. So the arithmetic operations in the calculation would be "translated" faster in assembly language.
  
