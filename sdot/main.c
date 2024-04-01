@@ -3,49 +3,61 @@
 #include <time.h>
 #include <math.h>
 
-extern float dot_product_asm(int* A, int* B, int n);
+extern void dot_product_asm(float* A, float* B, int n, float* Sdot_asm);
 
 
-double dot_product_c(int* A, int* B, int n) {
+void dot_product_c(float* A, float* B, int n, float* Sdot_c) {
     double sdot = 0;
     for (int i = 0; i < n; i++) {
         sdot += (double)A[i] * B[i];
     }
-    return sdot;
+    *Sdot_c = (float)sdot;
 }
 
 int main() {
-   
+
     // TO-DO: When done testing loop through {20, 24, 30} 30 times
     int n = pow(2, 30);
 
-    unsigned int* A = (int*)malloc(n * sizeof(unsigned int));
-    unsigned int* B = (int*)malloc(n * sizeof(unsigned int));
-
+    float* A = (float*)malloc(n * sizeof(float));
+    float* B = (float*)malloc(n * sizeof(float));
+    float Sdot_asm;
+    float Sdot_c;
 
     for (int j = 0; j < n; ++j) {
-        A[j] = j+1;
-        B[j] = j+1;
+        A[j] = j + 1;
+        B[j] = j + 1;
     }
-    
 
     clock_t start_c = clock();
-    double sdot_c = dot_product_c(A, B, n);
+    dot_product_c(A, B, n, &Sdot_c);
     clock_t end_c = clock();
     double time_c = ((double)(end_c - start_c)) / CLOCKS_PER_SEC;
 
+
+    
     clock_t start_asm = clock();
-    float sdot_asm = dot_product_asm(A, B, n);
+    dot_product_asm(A, B, n, &Sdot_asm);
     clock_t end_asm = clock();
     double time_asm = ((double)(end_asm - start_asm)) / CLOCKS_PER_SEC;
 
+    printf("---------------------------------------------------------------------\n");
 
-    printf("\Sdot (C): %lf\n", sdot_c);
+    printf("| Method          | %-30s | Execution Time |\n", "Dot Product");
+    printf("|-----------------|--------------------------------|----------------|\n");
+    printf("| C               | %30.2f | %14.6f |\n", Sdot_c, time_c);
+    printf("| Assembly        | %30.2f | %14.6f |\n", Sdot_asm, time_asm);
+    printf("---------------------------------------------------------------------\n");
 
-    // TO-DO: make assembly return the value (might need to use double?)
-    //printf("Dot product (Assembly): %f\n", sdot_asm);
-    printf("Execution time (C): %f seconds\n", time_c);
-    printf("Execution time (Assembly): %f seconds\n\n", time_asm);
+    if (Sdot_asm == Sdot_c) {
+        printf("| %-65s |\n", "[CORRECT] Results are correct and congruent.");
+    } else {
+        printf("[WRONG] Results do not match.");
+    }
+
+    printf("|-------------------------------------------------------------------|\n");
+
+
 
 
     free(A);
