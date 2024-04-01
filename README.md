@@ -7,7 +7,6 @@ Chen, Jeremy Wertheim and Ortiz, Ma China
  ii & iii.)
  For testing, we used 2^28 as the max because 2^29 and 2^30 were too large for the machine to complete running.
  
- Equation for sum of squares: (n(n + 1)(2n + 1)) / 6 <br />
  ![sum of squares](https://github.com/jeremywchen/x86-to-C-interface-programming-project/assets/92730916/97a46f67-f6a0-4de7-b282-f171498ac2c8)
 
  Vector size: 2^20<br />
