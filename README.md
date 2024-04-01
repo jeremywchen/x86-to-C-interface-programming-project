@@ -8,7 +8,6 @@ Chen, Jeremy Wertheim and Ortiz, Ma China
  In release mode, the results differ greatly. For all vector sizes, ASM runs slower than C however not by significant margins. When the vector size is 2^20, the average runtime in C is 0.001733 seconds while in ASM it is 0.001800 seconds. When the vector size is 2^28, the average C runtime us 0.348800 seconds while in ASM it's 0.367733 seconds. As mentioned, the difference in runtime between languages aren't significant and one of the most possible reason for this is release mode is more optimized as the compiler runs the code faster and uses less memory.
 
  <br />
- <br />
  ii & iii.)
  For testing, we used 2^28 as the max because 2^29 and 2^30 were too large for the machine to complete running.
 
