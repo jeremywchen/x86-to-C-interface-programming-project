@@ -57,7 +57,7 @@ void printResult(float Sdot_c, double time_c, float Sdot_asm, double time_asm, i
 
 
 int main() {
-    int sizes[] = {20, 25, 30};
+    int sizes[] = {20, 24, 28};
 
     for(int i = 0; i < X; i++){
 
