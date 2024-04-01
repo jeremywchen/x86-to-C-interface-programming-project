@@ -15,5 +15,5 @@ Chen, Jeremy Wertheim and Ortiz, Ma China
   ![24vector](https://github.com/jeremywchen/x86-to-C-interface-programming-project/assets/92730916/c02c3313-de79-4ddc-bbae-38c5e4d23160)
 
 
- Vector size: 2^29
+ Vector size: 2^28
   ![28vector](https://github.com/jeremywchen/x86-to-C-interface-programming-project/assets/92730916/f27734d8-1872-47b2-8dde-8dd291b01619)
