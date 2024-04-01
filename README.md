@@ -6,16 +6,13 @@ Chen, Jeremy Wertheim and Ortiz, Ma China
  
  ii & iii.)
  For testing, we used 2^28 as the max because 2^29 and 2^30 were too large for the machine to complete running.
- 
- ![sum of squares](https://github.com/jeremywchen/x86-to-C-interface-programming-project/assets/92730916/97a46f67-f6a0-4de7-b282-f171498ac2c8)
 
  Vector size: 2^20<br />
-  ![20vector](https://github.com/jeremywchen/x86-to-C-interface-programming-project/assets/92730916/949e19b7-0165-4cc1-8945-1170fc894aa3)
-
+  ![20vector](https://github.com/jeremywchen/x86-to-C-interface-programming-project/assets/92730916/5e12ac04-3f7d-404d-8aae-e098811138d2)
  
  Vector size: 2^24<br />
-  ![24vector](https://github.com/jeremywchen/x86-to-C-interface-programming-project/assets/92730916/c02c3313-de79-4ddc-bbae-38c5e4d23160)
+  ![24vector](https://github.com/jeremywchen/x86-to-C-interface-programming-project/assets/92730916/9d5ab46b-c029-4d29-bc19-6eea4e1b0316)
 
 
  Vector size: 2^28<br />
-  ![28vector](https://github.com/jeremywchen/x86-to-C-interface-programming-project/assets/92730916/f27734d8-1872-47b2-8dde-8dd291b01619)
+  ![28vector](https://github.com/jeremywchen/x86-to-C-interface-programming-project/assets/92730916/1519cb33-75f9-4282-98aa-2f3279ba8430)
