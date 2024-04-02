@@ -24,12 +24,17 @@ To conclude, in debug mode, compilers often include additional checks and debugg
 # Screenshots of the program output including the correctness check
 For testing, we used 2^28 as the max because 2^29 and 2^30 were too large for the machine to complete running. This includes the correctness check of the output. As the vectors are only filled with 1s the expected output is 2^n.
 
-| Vector Size | Mode         | Screenshot                                                                                            |
-|-------------|--------------|-------------------------------------------------------------------------------------------------------|
-| 2^20        | Debug        | ![20vector debug](https://github.com/jeremywchen/x86-to-C-interface-programming-project/assets/92730916/defa8a22-6fce-4036-b98a-2d71af077434) |
-| 2^20        | Release      | ![20 vector release](https://github.com/jeremywchen/x86-to-C-interface-programming-project/assets/92730916/16d81906-82d6-4874-a697-494360f59301) |
-| 2^24        | Debug        | ![24vector debug](https://github.com/jeremywchen/x86-to-C-interface-programming-project/assets/92730916/d474cb4d-4669-4b8b-b686-95c2505d324d) |
-| 2^24        | Release      | ![24 vector release](https://github.com/jeremywchen/x86-to-C-interface-programming-project/assets/92730916/c5bc7ebc-8562-43ff-9402-91a7a5c63b2f) |
-| 2^28        | Debug        | ![28vector debug](https://github.com/jeremywchen/x86-to-C-interface-programming-project/assets/92730916/ef03b3b8-587a-4e99-baa7-8b74e38c8319) |
-| 2^28        | Release      | ![28 vector release](https://github.com/jeremywchen/x86-to-C-interface-programming-project/assets/92730916/22f92c19-e796-431b-9d66-10f5798c1556) |
+## Debug Mode
+| Vector Size | Screenshot                                                                                            |
+|-------------|-------------------------------------------------------------------------------------------------------|
+| 2^20        | ![20vector debug](https://github.com/jeremywchen/x86-to-C-interface-programming-project/assets/92730916/defa8a22-6fce-4036-b98a-2d71af077434) |
+| 2^24        | ![24vector debug](https://github.com/jeremywchen/x86-to-C-interface-programming-project/assets/92730916/d474cb4d-4669-4b8b-b686-95c2505d324d) |
+| 2^28        | ![28vector debug](https://github.com/jeremywchen/x86-to-C-interface-programming-project/assets/92730916/ef03b3b8-587a-4e99-baa7-8b74e38c8319) |
+
+## Release Mode
+| Vector Size | Screenshot                                                                                            |
+|-------------|-------------------------------------------------------------------------------------------------------|
+| 2^20        | ![20 vector release](https://github.com/jeremywchen/x86-to-C-interface-programming-project/assets/92730916/16d81906-82d6-4874-a697-494360f59301) |
+| 2^24        | ![24 vector release](https://github.com/jeremywchen/x86-to-C-interface-programming-project/assets/92730916/c5bc7ebc-8562-43ff-9402-91a7a5c63b2f) |
+| 2^28        | ![28 vector release](https://github.com/jeremywchen/x86-to-C-interface-programming-project/assets/92730916/22f92c19-e796-431b-9d66-10f5798c1556) |
 
