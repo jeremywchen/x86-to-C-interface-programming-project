@@ -22,7 +22,7 @@ To conclude, in debug mode, compilers often include additional checks and debugg
  <br />
 
 # Screenshots of the program output including the correctness check
-For testing, we used 2^28 as the max because 2^29 and 2^30 were too large for the machine to complete running. This includes the correctness check of the output. As the vectors are only filled with 1s the expected output is 2^n.
+For testing, 2^28 was used as the maximum vector size for the machine to complete running. This includes the correctness check of the output. As the vectors are only filled with 1s the expected output is 2^n.
 
 ## Debug Mode
 | Vector Size | Screenshot                                                                                            |
