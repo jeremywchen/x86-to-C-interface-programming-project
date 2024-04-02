@@ -16,7 +16,7 @@ This program is designed to evaluate the performance of both x86_64 assembly lan
 ### Release Mode
 In release mode, the results differ greatly. For all vector sizes, ASM runs slower than C however not by significant margins. When the vector size is 2^20, the average runtime in C is 0.001733 seconds while in ASM it is 0.001800 seconds. When the vector size is 2^28, the average C runtime is 0.348800 seconds while in ASM it's 0.367733 seconds. As mentioned, the difference in runtime between languages is not significant. This is attributed to compiler optimizations. Release mode enables compiler optimizations that are not present in debug mode. These optimizations can include loop unrolling, function inlining, and more aggressive dead code elimination, which can significantly reduce the execution time of C code. Assembly code, being directly translated to machine code without such optimizations, may not benefit from these improvements
 
-#### Conclusion
+### Conclusion
 To conclude, in debug mode, compilers often include additional checks and debugging information that can slow down execution. Assembly code, being directly translated to machine code without overhead, can execute more efficiently in debug mode compared to C.  However, modern C compilers have made significant strides in optimizing code, reducing the performance gap between C and assembly in release mode. 
 
  <br />
@@ -24,7 +24,7 @@ To conclude, in debug mode, compilers often include additional checks and debugg
 # Screenshots of the program output including the correctness check
 For testing, we used 2^28 as the max because 2^29 and 2^30 were too large for the machine to complete running. This includes the correctness check of the output. As the vectors are only filled with 1s the expected output is 2^n.
 
-| Vector Size | Mode         | Image Link                                                                                            |
+| Vector Size | Mode         | Screenshot                                                                                            |
 |-------------|--------------|-------------------------------------------------------------------------------------------------------|
 | 2^20        | Debug        | ![20vector debug](https://github.com/jeremywchen/x86-to-C-interface-programming-project/assets/92730916/defa8a22-6fce-4036-b98a-2d71af077434) |
 | 2^20        | Release      | ![20 vector release](https://github.com/jeremywchen/x86-to-C-interface-programming-project/assets/92730916/16d81906-82d6-4874-a697-494360f59301) |
