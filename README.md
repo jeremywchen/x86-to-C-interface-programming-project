@@ -4,6 +4,14 @@ By Chen, Jeremy Wertheim and Ortiz, Ma China
 This program is designed to evaluate the performance of both x86_64 assembly language and C programming in computing the dot product of two single-precision float vectors. The program accepts an integer n as input, which specifies the length of the vectors. Additionally, it requires two single-precision float vectors A and B, each of length n, and a single-precision float variable sdot. The assembly function for calculating the dot product is contained within sdot.asm, while the C function for the same operation, along with the mechanism for measuring the execution time of both the C and assembly functions, is implemented in main.c.
 
 # Average Execution Times after 30 Runs
+### Debug Mode
+| Size    | C Time (seconds) | ASM Time (seconds) |
+|---------|------------------|--------------------|
+| 2^20    | 0.004800         | 0.001800           |
+| 2^24    | 0.065167         | 0.022867           |
+| 2^28    | 1.026000         | 0.358867           |
+
+### Release Mode
 
 
 
