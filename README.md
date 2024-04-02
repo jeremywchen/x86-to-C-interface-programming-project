@@ -5,11 +5,12 @@ This program is designed to evaluate the performance of both x86_64 assembly lan
 
 # Average Execution Times after 30 Runs
 ### Debug Mode
-| Size    | C Time (seconds) | ASM Time (seconds) |
-|---------|------------------|--------------------|
-| 2^20    | 0.004800         | 0.001800           |
-| 2^24    | 0.065167         | 0.022867           |
-| 2^28    | 1.026000         | 0.358867           |
+| Size    | C Time (seconds) | ASM Time (seconds) | Time Difference (seconds) | Faster Language |
+|---------|------------------|--------------------|---------------------------|-----------------|
+| 2^20    | 0.004800         | 0.001800           | 0.003000                  | ASM             |
+| 2^24    | 0.065167         | 0.022867           | 0.042300                  | ASM             |
+| 2^28    | 1.026000         | 0.358867           | 0.667133                  | ASM             |
+
 
 ### Release Mode
 
